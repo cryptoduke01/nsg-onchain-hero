@@ -35,7 +35,7 @@ const Hero = () => {
   ];
 
   return (
-    <div className="relative min-h-screen bg-blue-600 overflow-hidden px-4 md:px-8 transition-all duration-300">
+    <div className="relative min-h-screen bg-blue-700 overflow-hidden px-4 md:px-8 transition-all duration-300">
       {/* Wavy background pattern with animation */}
       <div className="absolute inset-0 opacity-20 transition-opacity duration-500">
         {[...Array(20)].map((_, i) => (
